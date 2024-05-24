@@ -5,7 +5,7 @@ from text import long_text, short_text
 type_speed_app = TypingSpeedApp()
 
 # Set the test lines from the long_text variable
-type_speed_app.get_test_lines(short_text)
+type_speed_app.get_test_lines(long_text)
 
 # Start the main event loop
 type_speed_app.start_mainloop()
